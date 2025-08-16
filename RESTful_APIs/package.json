@@ -1,0 +1,12 @@
+{
+  "name": "restful_apis",
+  "version": "1.0.0",
+  "description": "RESTful APIs with Node JS and Express JS",
+  "license": "ISC",
+  "author": "Johnson Bhaskaran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
