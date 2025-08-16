@@ -17,3 +17,16 @@ Routes:
 Models:
 
 - are the schema models for out database
+
+## Folder Structure
+
+![Folder structure](image.png)
+
+`crmRoutes.js`
+![routes](image-3.png)
+
+## Middlewares
+
+- are simply functions that have access to the request and response object
+- In express application It can run code there
+- It can make changes to the request response objects
