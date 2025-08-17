@@ -1,13 +1,21 @@
 const routes = (app) => {
   app
     .route("/contact")
-    .get((req, res) => res.send("GET request successfull"))
-    .post((req, res) => res.send("POST request successfull"));
+    .get(
+      (req, res, next) => {
+        // Middleware
+        console.log(`Request from: ${req.originalUrl}`);
+        console.log(`Request type: ${req.method}`);
+        next();
+      },
+      (req, res, next) => res.send("GET request successful")
+    )
+    .post((req, res) => res.send("POST request successful"));
 
   app
     .route("/contact/:contactId")
-    .put((req, res) => res.send("PUT request successfull"))
-    .delete((req, res) => res.send("DELETE request successfull"));
+    .put((req, res) => res.send("PUT request successful"))
+    .delete((req, res) => res.send("DELETE request successful"));
 };
 
 export default routes;
