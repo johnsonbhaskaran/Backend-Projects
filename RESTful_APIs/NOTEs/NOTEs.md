@@ -30,3 +30,14 @@ Models:
 - are simply functions that have access to the request and response object
 - In express application It can run code there
 - It can make changes to the request response objects
+
+## Mongo DB setup
+
+- create new DB with cluster or localhost:27017
+- connect with mongoose and body-parser
+
+![mongoose setup](image-4.png)
+
+## Mongo DB schema
+
+- dictates the types of data and the structure of your data for the DB
