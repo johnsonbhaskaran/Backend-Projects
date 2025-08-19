@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "server": "node --watch index.js --exec babel-node"
+    "server": "node --watch index.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
