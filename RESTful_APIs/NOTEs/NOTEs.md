@@ -41,3 +41,12 @@ Models:
 ## Mongo DB schema
 
 - dictates the types of data and the structure of your data for the DB
+
+![mongo DB model - Schema](image-5.png)
+
+## Controller
+
+- send the data to the database
+- update the data to the database
+
+`const Contact = mongoose.model("Contact", ContactSchema);`
