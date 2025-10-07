@@ -1,0 +1,16 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "main": "node --watch main"
+  },
+  "keywords": [],
+  "author": "Johnson Bhaskaran",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.12.2"
+  }
+}
