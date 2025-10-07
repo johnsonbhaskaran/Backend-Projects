@@ -33,5 +33,7 @@
       }
     ],
     "comments": ""
-  }
+  },
+  "reactSnippets.settings.languageScopes": "typescript,typescriptreact,javascriptreact",
+  "reactSnippets.settings.importReactOnTop": false
 }
