@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  accent-color: slateblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  min-width: 250px;
+  max-width: 750px;
+  height: 350px;
+  border: 1px solid slateblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.wrapper p {
+  font-size: 1.2rem;
+}
+
+form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border: 1px solid slateblue;
+  width: 100%;
+}
+
+form input:focus {
+  outline: 1px solid slateblue;
+}
+
+form input[type=checkbox]:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  border: none;
+  background-color: slateblue;
+  padding: 10px 0px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: rgba(250, 128, 114, .2);
+  border: 1px solid salmon;
+  color: salmon;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
